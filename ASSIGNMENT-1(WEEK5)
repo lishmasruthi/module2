@@ -1,0 +1,8 @@
+#Maintain Efficient Process Utilization on Windows
+Get-Process -Name "totally_not_malicious"
+taskkill /F /PID 6300
+Get-Process -Name "totally_not_malicious"
+Get-Process -Name "*razzle*"
+taskkill /F /PID 6024
+taskkill /F /PID 3484
+Get-Process -Name "*razzle*"
